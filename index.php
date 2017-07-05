@@ -26,7 +26,7 @@ else{
 $oPac=$_SESSION["oPaciente"];
 ?>
 
-BIENVENIDO: <?=$Pac->getNombre();?><a href="logout.php">Salir</a>
+BIENVENIDO: <?=$Pac->getRutPaciente();?><a href="logout.php">Salir</a>
 <?php }?>
 </body>
 </html>
