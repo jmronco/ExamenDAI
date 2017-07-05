@@ -1,7 +1,7 @@
 <?php
 $rutPaciente=$_POST["rutPaciente"];
 
-     $miconn = new mysqli("10.20.25.214", "root", "avaras08", "datosPersonales");
+     $miconn = new mysqli("10.20.25.214", "root", "avaras08", "atencionpacientes");
                 if ($miconn->connect_errno) {
                 echo "Fallo al conectar a MySQL: (" . $miconn->connect_errno . ") " . $miconn->connect_error;
         }

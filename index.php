@@ -15,7 +15,7 @@ and open the template in the editor.
         <?php
         
        // var_dump($_SERVER);
-         $miconn=new mysqli("10.20.25.214", "root", "avaras08", "atencionPacientes");
+         $miconn=new mysqli("10.20.25.214", "root", "avaras08", "atencionpacientes");
                    
          echo $miconn->host_info;
          
