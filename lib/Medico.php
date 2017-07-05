@@ -1,11 +1,11 @@
 <?php
 
 class Medico{
-    private $rutMedico;
-    private $nomMedico;
-    private $fechaContratacion;
-    private $especialidad;
-    private $valorConsulta;
+    var $rutMedico;
+    var $nomMedico;
+    var $fechaContratacion;
+    var $especialidad;
+    var $valorConsulta;
     
     function __construct($rutM=NULL,$nomM=NULL,$fechaC=NULL,$esp=NULL,$valorC=NULL) {
         $this->rutMedico=$rutM;

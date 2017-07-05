@@ -1,12 +1,12 @@
 <?php
 
 class Paciente{
-    private $rutPaciente;
-    private $nomPaciente;
-    private $fechaNacimiento;
-    private $sexo;
-    private $direccion;
-    private $telefono;
+    var $rutPaciente;
+    var $nomPaciente;
+    var $fechaNacimiento;
+    var $sexo;
+    var $direccion;
+    var $telefono;
     
     function __construct($rutP=NULL,$nomP=NULL,$fechaN=NULL,$sexo=NULL,$dir=NULL,$fono=NULL) {
         $this->rutPaciente=$rutP;

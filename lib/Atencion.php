@@ -1,14 +1,14 @@
 <?php
 
 class Atencion{
-    private $numAtencion;
-    private $fechaHr;
-    private $pacienteAtendido;
-    private $medicoTratante;
-    private $estado;
-    private $rangoFechas;
-    private $meses;
-    private $especialidad;
+    var $numAtencion;
+    var $fechaHr;
+    var $pacienteAtendido;
+    var $medicoTratante;
+    var $estado;
+    var $rangoFechas;
+    var $meses;
+    var $especialidad;
 
     function __construct($num=NULL,$fh=NULL,$pacA=NULL,$medT=NULL,$estado=NULL,$rango=NULL,$esp=NULL,$meses=NULL) {
         $this->numAtencion=$num;

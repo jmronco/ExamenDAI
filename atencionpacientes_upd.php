@@ -1,8 +1,4 @@
-<?php
-include ('librerias.php');
-session_start();
-?>
-
+<?php include('valida_acceso.php')?>
 <!doctype html>
 <html lang=''>
 <head>
@@ -11,22 +7,12 @@ session_start();
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="css/styles.css">
    <script src="js/jquery-latest.min.js" type="text/javascript"></script>
-   <title>Atención Pacientes</title>
+   <title>Seleccionar</title>
 </head>
 <body>
 <?php 
 include('menu.php');
-/*
- * Verificación del usuario y clave
-* */
-if (!isset($_SESSION["oPaciente"])){
-include('form/formlogin.php');
-}
-else{
-$oPac=$_SESSION["oPaciente"];
 ?>
-
-BIENVENIDO: <?=$Pac->getNombre();?><a href="logout.php">Salir</a>
-<?php }?>
+SELECCIONAR
 </body>
 </html>
